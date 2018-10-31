@@ -1,0 +1,13 @@
+#htmlCheck {
+  font-weight: bold;
+}
+
+#cssCheck {
+  color: green;
+  font-style: italic;
+}
+
+body {
+  padding-top: 80px;
+  text-align: center;
+}
