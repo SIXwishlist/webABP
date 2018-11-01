@@ -1,6 +1,6 @@
 // server.js
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -10,8 +10,9 @@ app.use(express.static(__dirname + '/public'));
 
 // get index
 app.get('/', function(req, res) {
-    res.render('pages/index');
+  res.render('pages/index');
 });
 
-app.listen(8000);
-console.log('port 8k is lit fam...');
+app.listen(8000, function() {
+  console.log('port 8k is lit fam...');
+});
