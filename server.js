@@ -9,10 +9,10 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 // get index
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
   res.render('pages/index');
 });
 
-app.listen(8000, function() {
+app.listen(8000, () => {
   console.log('port 8k is lit fam...');
 });
