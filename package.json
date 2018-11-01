@@ -1,5 +1,5 @@
 {
-  "name": "webwabp",
+  "name": "webabp",
   "version": "1.0.0",
   "description": "basic web app boilerplate",
   "main": "server.js",
